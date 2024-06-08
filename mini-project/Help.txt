@@ -1,0 +1,15 @@
+Initialize project with => npm init -y
+install express js => npm i express
+
+- setting up parsers for form
+    app.use(express.json());
+    app.use(express.urlencoded({extended: true}));
+- setting up ejs for ejs pages
+    1. install ejs> npm i ejs 
+    2. set up ejs as a view engine:
+        app.set('view engine', 'ejs');
+
+- setting up public static files
+# Dynamic routing 
+    - dynamic routing
+    - how to take data from frontend at backend route
